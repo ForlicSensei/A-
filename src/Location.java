@@ -14,6 +14,7 @@ public class Location
         return xCoord == location.xCoord && yCoord == location.yCoord;
     }
 
+
     @Override
     public int hashCode() {
         return Objects.hash(xCoord, yCoord);
